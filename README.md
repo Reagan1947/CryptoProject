@@ -46,3 +46,7 @@ cd openssl-1.0.2l
 sudo make
 sudo make install
 ```
+# To do list 任务清单
+[] 解决dict在数据库中的存储问题。
+[] 应用于Django项目上
+[] GUI界面
