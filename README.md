@@ -27,9 +27,8 @@ cd pbc-0.5.14
 ```
 
 从 [https://pypi.python.org/pypi/charm-crypto/0.43](https://pypi.python.org/pypi/charm-crypto/0.43)
-
 下载魅力的tar.gz文件，提取，改变目录，那么：
-Dowload Charm-crypto from [https://pypi.python.org/pypi/charm-crypto/0.43](https://pypi.python.org/pypi/charm-crypto/0.43)
+<br>Dowload Charm-crypto from [https://pypi.python.org/pypi/charm-crypto/0.43](https://pypi.python.org/pypi/charm-crypto/0.43):
 
 ```
 ./configure.sh 
@@ -38,7 +37,7 @@ sudo make install
 sudo ldconfig 
 ```
 因为在Ubuntu18.04.3中Openssl版本高于Charm-crypto要求版本，降低Openssl版本：
-Charm-crypto have to use Openssl 1.X.X so you need to install Openssl 1.0.2. Even Ubuntu 18LTS have installed Openssl 1.1.1 or other.
+<br>Charm-crypto have to use Openssl 1.X.X so you need to install Openssl 1.0.2. Even Ubuntu 18LTS have installed Openssl 1.1.1 or other.:
 ```
 wget https://www.openssl.org/source/openssl-1.0.2l.tar.gz
 tar -xzvf openssl-1.0.2l.tar.gz
