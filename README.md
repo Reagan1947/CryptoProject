@@ -48,6 +48,6 @@ sudo make install
 ```
 # To do list 任务清单
 - [x]  解决dict在数据库中的存储问题。
-- [ ]  Django多数据库实现问题
+- [x]  Django多数据库实现问题
 - [ ]  应用于Django项目上
 - [ ]  GUI界面
